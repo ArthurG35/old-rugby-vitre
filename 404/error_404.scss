@@ -1,0 +1,54 @@
+@import '../assets/styles/styles.scss';
+html,
+body {
+    background: rgb(22, 22, 22);
+    font-family: 'Inconsolata', sans-serif;
+}
+
+.wrap {
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 200px;
+    margin-left: -200px;
+    margin-top: -100px;
+    position: absolute;
+}
+
+code {
+    color: white;
+}
+
+span.blue {
+    color: #48beef;
+}
+
+span.comment {
+    color: #7f8c8d;
+}
+
+span.load {
+    color: #f39c12;
+}
+
+.back {
+    text-align: center;
+    a {
+        font-size: 2em;
+        letter-spacing: 0.05em;
+        text-decoration: none;
+        font-weight: 300;
+        text-transform: uppercase;
+        position: relative;
+        color: #fff;
+        text-decoration: none;
+        -moz-transition: all .3s ease-in;
+        -o-transition: all .3s ease-in;
+        -webkit-transition: all .3s ease-in;
+        transition: all .3s ease-in;
+        -ms-transition: all .3s ease-in;
+        &:hover {
+            color: #2ecc71;
+        }
+    }
+}

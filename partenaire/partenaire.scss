@@ -1,0 +1,33 @@
+@import "../assets/styles/styles.scss";
+.partenaires {
+    margin: 40px 0;
+    .partenaire-text {
+        text-align: center;
+        font-size: 4rem;
+        text-decoration: underline;
+    }
+    .partenaire-img-star {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 30px 200px;
+        img {
+            margin: 20px;
+            max-height: 80px;
+        }
+    }
+    hr {
+        width: 80%;
+        margin: auto;
+    }
+    .partenaire-img {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 30px 200px;
+        img {
+            margin: 20px;
+            max-height: 80px;
+        }
+    }
+}
